@@ -699,7 +699,7 @@ ul{
 	text-transform: capitalize;
 }
 @keyframes bounce {
-    0%, {
+    0% {
         transform: translateY(0px)
     }
     25% {
@@ -7258,7 +7258,7 @@ ul{
 	color: #ffffff;
 }
 .blog_single_heading{
-	margin-bottom: 60px;+
+	margin-bottom: 60px;
 }
 .blog_single_heading h3{
 	color: #222222;
