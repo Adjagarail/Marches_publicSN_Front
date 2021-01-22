@@ -11457,3 +11457,7 @@ ul{
 	display: inline-flex;
 	letter-spacing: 30px;
 }
+.ak117{
+	transform: skewX(-30deg);
+	background-color: #299a75;
+}
