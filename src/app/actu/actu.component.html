@@ -5,7 +5,7 @@
 				<div class="col-lg-6 col-md-6">
 					<div class="clv_heading">
 
-                        <h3> Nos derniéres Actualités </h3>
+                        <h3> {{ section }} </h3>
                         
 					</div>
 				</div>
@@ -16,14 +16,14 @@
 						<div class="blog_section">
 							<div class="agri_blog_image">
 								<img src="https://via.placeholder.com/570x350" alt="image" />
-								<span class="agri_blog_date"> 21 Jan 2021 </span>
+								<span class="agri_blog_date"> {{today | date}} </span>
 							</div>
 							<div class="agri_blog_content">
 								<h3><a href="blog_single.html"> La plateforme des marchés publics du Sénégal </a></h3>
 								<div class="blog_user">
 									<div class="user_name">
 										<img src="../../assets/images/user.png" alt="image" />
-										<a href="javascript:;"><span> Francis </span></a>
+										<a href="javascript:;"><span> {{user}} </span></a>
 									</div>
 									<div class="comment_block">
 										<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>
@@ -42,12 +42,12 @@
 									<img src="https://via.placeholder.com/230x285" alt="image" />
 								</div>
 								<div class="right_blog_content">
-									<span class="agri_blog_date"> 06 Jan 2021 </span>
+									<span class="agri_blog_date"> {{today | date}} </span>
 									<h3><a href="blog_single.html"> Les attributions de marchés Kesako ? </a></h3>
 									<div class="blog_user">
 										<div class="user_name">
 											<img src="../../assets/images/user.png" alt="image" />
-											<a href="javascript:;"><span> Francis </span></a>
+											<a href="javascript:;"><span> {{user}} </span></a>
 										</div>
 										<div class="comment_block">
 											<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>
@@ -63,12 +63,12 @@
 									<img src="https://via.placeholder.com/230x285" alt="image" />
 								</div>
 								<div class="right_blog_content">
-									<span class="agri_blog_date"> 09 Jan 2021 </span>
+									<span class="agri_blog_date"> {{today | date}} </span>
 									<h3><a href="blog_single.html"> Soumettre à un appel d'offre </a></h3>
 									<div class="blog_user">
 										<div class="user_name">
 											<img src="../../assets/images/user.png" alt="image" />
-											<a href="javascript:;"><span> Francis </span></a>
+											<a href="javascript:;"><span> {{user}} </span></a>
 										</div>
 										<div class="comment_block">
 											<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>

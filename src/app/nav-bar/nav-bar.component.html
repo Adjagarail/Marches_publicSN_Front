@@ -13,7 +13,7 @@
 				<div class="col-lg-4 col-md-4">
 					<div class="clv_left_header">
 						<div class="clv_logo">
-							<a href="/"><img style="max-width: 210px;" src="../../assets/images/logo portail_noir.png" alt="Portail" /></a>
+							<a [routerLink] = "['/']" [queryParams]="{debug: true}"><img style="max-width: 210px;" src="../../assets/images/logo portail_noir.png" alt="Portail" /></a>
 						</div>
 					</div>
 				</div>
@@ -24,36 +24,39 @@
                                 
 								<ul>
 									<li class="menn">
-										<a href="javascript:;"> Acceuil </a>
+										<a [routerLink] = "['/']"> Acceuil </a>
 									</li>
-									<li class="menn">
-                                        <a href="javascript:;"> Actualités </a>
-                                    </li>
+									
                                     <li class="menn">
                                         <a href="javascript:;"> Consultations </a>
                                         <ul>
-											<li class="menn"><a href="#"> Code des marchés 2017 </a></li>
-											<li class="menn"><a href="#"> Espace Législation </a></li>
-											<li class="menn"><a href="#"> Liste des DAO </a></li> 
-										</ul>
-                                    </li>
-									<li class="menn">
-										<a href="javascript:;">Organes</a>
-										<ul>
-											<li class="menn"><a href="#"> ARMP </a></li>
-											<li class="menn"><a href="#"> Audit </a></li>
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Code des marchés 2017 </a></li>
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Espace Législation </a></li>
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Liste des DAO </a></li> 
 										</ul>
 									</li>
+									
+									<li class="menn">
+										<a href="javascript:;"> Organes </a>
+										<ul>
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> ARMP </a></li>
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Audit </a></li>
+										</ul>
+									</li>
+
 									<li class="menn">
 										<a href="javascript:;"> Rapports </a>
 										<ul>
-
-											<li class="menn"><a href="#"> Rapports d'audit </a></li>
-
+											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Rapports d'audit </a></li>
 										</ul>
-                                    </li>
+									</li>
+
+									<li class="menn">
+                                        <a [routerLink] = "['/blog']"> Actualités </a>
+									</li>
+									
                                     <li class="menn"> 
-                                        <a href=""> Connexion </a>
+                                        <a [routerLink] = "['/login']" [queryParams]="{debug: true}"> Connexion </a>
                                     </li>
 								</ul>
                             </div>

@@ -1,1 +1,37 @@
-<p>not-found works!</p>
+<app-nav-bar></app-nav-bar>  
+
+    <!--Breadcrumb-->
+    <div class="breadcrumb_wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="breadcrumb_inner">
+                        <h3> {{title}} </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--404-->
+    <div class="error_wrapper clv_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-">
+                    <div class="error_block">
+                        <div class="error_image">
+                            <h2> 404 </h2>
+                            <img src="../../assets/images/404.gif" alt="image" class="shape_img" >
+                           <!-- <img src="https://via.placeholder.com/227x197" alt="image" class="veg_img" >-->
+                        </div>
+                        <div class="error_content">
+                            <h3><span>oops...</span> Page introuvable </h3>
+                            <p>Il semble que la page que vous recherchez soite supprimée ou introuvable </p>
+                            <a [routerLink] = "['/']" [queryParams]="{debug: true}" class="clv_btn"> Accueil </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<app-footer></app-footer>

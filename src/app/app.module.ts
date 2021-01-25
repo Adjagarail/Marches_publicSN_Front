@@ -16,6 +16,11 @@ import { PaginateComponent } from './paginate/paginate.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { ActuComponent } from './actu/actu.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
 
 const appRoutes: Routes = [
     {
@@ -23,6 +28,18 @@ const appRoutes: Routes = [
     },
     {
       path:'dashboard', component: DashboardComponent
+    },
+    {
+      path:'login', component: LoginComponent
+    },
+    {
+      path:'blog', component: BlogComponent
+    },
+    {
+      path:'contact', component: ContactComponent
+    },
+    {
+      path:'register', component: RegisterComponent
     },
     {
       path:'**', component:NotFoundComponent
@@ -42,7 +59,12 @@ const appRoutes: Routes = [
     PaginateComponent,
     FooterComponent,
     NewsletterComponent,
-    ActuComponent
+    ActuComponent,
+    LoginComponent,
+    RegisterComponent,
+    BlogComponent,
+    ContactComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

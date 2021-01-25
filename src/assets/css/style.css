@@ -248,7 +248,7 @@ ul{
 	height: 35px;
 	color: #fec007;
 	font-size: 18px;
-	float: left;
+	display: left;
 	margin-right: 11px;
 	display: inline-block;
 	border-radius: 7px;
@@ -2677,7 +2677,7 @@ ul{
 	font-size: 26px;
     color: #222222;
 	font-weight: 600;
-	float: right;
+	display: right;
 	display: inline-block;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;
@@ -3034,7 +3034,7 @@ ul{
 }
 .index_v2 .footer_slider_arrows{
 	display: inline-block;
-    float: right;
+    display: right;
     margin-right: 15px;
 }
 .index_v2 .footer_slider_arrows .footer_arrow{
@@ -4242,9 +4242,7 @@ ul{
 }
 /*Garden Service End*/
 /*Garden About Start*/
-.garden_about_wrapper{
-	
-}
+
 .garden_about_wrapper .garden_about_section .garden_about_image img{
 	border-radius: 10px;
 }
@@ -4352,9 +4350,7 @@ ul{
 }
 /*Garden Counter End*/
 /*Garden Service About Start*/
-.garden_service_about_wrapper{
-	/* padding-bottom: 174px;         */
-}
+
 .garden_service_about_wrapper .service_about_content{
 	margin-top: 30px;
 	position: relative;	
@@ -6529,7 +6525,7 @@ ul{
 	z-index: 1;
 	display: inline-block;
 	font-family: 'Source Sans Pro', sans-serif;
-	float: left;
+	display: left;
 	margin: 0;
 	width: 90px;
 	height: 50px;
@@ -6690,8 +6686,7 @@ ul{
 }
 /*Coffee Partner End*/
 /*Coffee Footer Start*/
-.index_v6 .clv_footer_wrapper{
-}
+
 .index_v6 .clv_footer_wrapper{
 	background: none;
 	padding-top: 100px;
@@ -6739,7 +6734,7 @@ ul{
 	text-align: center;
 	border-radius: 50%;
 	background-color: #de5a5a;
-	float: left;
+	display: left;
 	display: inline-block;
 }
 .footer_support_wrapper .footer_service_section .contact_label:last-child{
@@ -8039,7 +8034,7 @@ ul{
 .quantity_wrapper {
 	width: 130px;
     display: inline-block;
-    float: left;
+    display: left;
 }
 .quantity_wrapper > .input-group{
 	border: 1px solid #ebebeb;
@@ -8536,7 +8531,7 @@ ul{
 	line-height: 458px;
 	text-transform: capitalize;
 	font-weight: 700;
-	color: #fec007;
+	color: #27ae93;
 }
 .error_content{
 	text-align: center;
@@ -9244,9 +9239,7 @@ ul{
 	background-color:#ffffff;
 	z-index:1111;
 }
-.preloader_inner {
-	
-}
+
 /********************************************************
 38. Preloader End
 *******************************************************/  
@@ -9280,9 +9273,6 @@ ul{
 	.garden_green_box{
 		right: auto;
 	    width: 850px;
-	}
-	.garden_service_about_wrapper{
-		/* padding-bottom: 100px; */
 	}
 }
 @media (max-width: 1400px) {
