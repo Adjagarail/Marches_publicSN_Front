@@ -11451,3 +11451,6 @@ ul{
 	transform: skewX(-30deg);
 	background-color: #299a75;
 }
+.index_v5 .clv_partner_wrapper{
+	background: linear-gradient(150deg, rgba(46,171,130,1) 0%, rgba(37,137,104,1) 100%)!important;
+}
