@@ -23,6 +23,7 @@
 							<div class="clv_menu_nav">
                                 
 								<ul>
+
 									<li class="menn">
 										<a [routerLink] = "['/']"> Acceuil </a>
 									</li>
@@ -45,19 +46,17 @@
 									</li>
 
 									<li class="menn">
-										<a href="javascript:;"> Rapports </a>
-										<ul>
-											<li class="menn"><a [routerLink] = "['/']" [queryParams]="{debug: true}"> Rapports d'audit </a></li>
-										</ul>
+                                        <a [routerLink] = "['/blog']"> Actualités </a>
 									</li>
 
 									<li class="menn">
-                                        <a [routerLink] = "['/blog']"> Actualités </a>
+										<a [routerLink] = "['/contact']" [queryParams]="{debug: true}"> Contact </a>
 									</li>
-									
+
                                     <li class="menn"> 
                                         <a [routerLink] = "['/login']" [queryParams]="{debug: true}"> Connexion </a>
-                                    </li>
+									</li>
+									
 								</ul>
                             </div>
                             
@@ -83,8 +82,7 @@
 									</li>
 									
 								</ul>
-                            </div>
-                            
+                            </div>  
 						</div>
 					</div>
 				</div>
